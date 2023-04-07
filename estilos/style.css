@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: #000000;
+    color: #F6F6F6;
+    box-sizing: border-box;
+    
+
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 9% 19%;
+    
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho{
+    padding: 2% 0% 0% 19% ;
+}
+.cabecalho__menu__link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+    color: #C74243;
+    text-decoration: none;
+}
+
+
+.espaco{
+    margin: 15px;
+}
+.apresentacao__conteudo__texto{
+    font-family: 'Montserrat', sans-serif; ;
+    font-size: 24px;
+}
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao__links__subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.apresentacao__links__link{
+    /* background-color: #BF3030;*/
+    width: 378px;
+    text-align: center;
+    border-radius: 13px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #F6F6F6;
+    border: 2px inset #BF3030;
+    padding: 21.5px 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    transition: transform .3s linear;
+    
+}
+.apresentacao__links__link:hover{
+    transform: scale(1.2);
+    background-color: #272727;
+    cursor: pointer;
+    height: 100%;
+}
+.foto_kaneda{
+    background-image: url(/img/60a81a4e4ba3601b7cf13047efe0d0e5.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    border-radius: 32px;
+    left: 100px;
+}
+.foto__anime{
+    
+    width: 400px;
+    height: 500px;
+    border-radius: 32px;
+    left: 100px;
+}
+.icons{
+  width: 30px;
+  height: 30px;
+    
+}
+
+strong{
+    color: #A60A0A;
+}
+.rodape{
+     background-color: #C74243;
+     color: aliceblue;
+     text-align: center;
+     padding: 24px;
+     font-family: 'Montserrat', sans-serif;
+    
+}
