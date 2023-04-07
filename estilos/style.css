@@ -31,17 +31,18 @@ body{
     align-items: center;
     justify-content: space-between;
     margin: 9% 19%;
+    gap:40px;
     
 }
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
     
 }
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-principal);
     text-align: center;
 }
@@ -55,7 +56,7 @@ body{
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
     color: var(--cor-secundaria);
     text-decoration: none;
@@ -67,7 +68,7 @@ body{
 }
 .apresentacao__conteudo__texto{
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .apresentacao__links{
     display: flex;
@@ -79,15 +80,15 @@ body{
 .apresentacao__links__subtitulo{
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
     /* background-color: #BF3030;*/
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 13px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #F6F6F6;
     border: 2px inset var(--cor-secundaria);
     padding: 21.5px 0;
@@ -107,7 +108,7 @@ body{
 .foto_kaneda{
     background-image: url(/Kaneda-info/img/kaneda.jpg);
     background-size: cover;
-    width: 400px;
+    width: 50%;
     height: 500px;
     border-radius: 32px;
     left: 100px;
@@ -135,4 +136,19 @@ strong{
      padding: 24px;
      font-family: var(--fonte-secundaria);
     
+}
+@media (max-width: 1200px){
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 9%;
+    }
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
 }
